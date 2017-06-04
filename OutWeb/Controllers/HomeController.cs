@@ -43,13 +43,9 @@ namespace OutWeb.Controllers
 		}
 		public ActionResult About()
 		{
-			ViewBag.Message = "This is an Outsurance application";
+			ViewBag.Message = "Why Me?";
 			return View();
 		}
-		public ActionResult Contact()
-		{
-			ViewBag.Message = "Contact Marks";
-			return View();
-		}
+		
 	}
 }
