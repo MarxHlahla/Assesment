@@ -1,0 +1,6 @@
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\OutUnitTest\bin\Debug\OutUnitTest.dll
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\OutUnitTest\bin\Debug\OutUnitTest.pdb
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\OutUnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\OutUnitTest\obj\Debug\OutUnitTest.csprojResolveAssemblyReference.cache
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\OutUnitTest\obj\Debug\OutUnitTest.dll
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\OutUnitTest\obj\Debug\OutUnitTest.pdb

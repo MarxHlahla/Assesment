@@ -1,0 +1,119 @@
+﻿@{
+	ViewBag.Title = "Home Page";
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/js/out.js"></script>
+
+
+<div class="row" style="padding-top:20px">
+	<div class="col-md-2">
+		<ul class="media-list" form="radioB" style="margin-top: 70px;">
+			<li><input type="radio" data-scenario="Default" typeof="radioBox" checked="checked" id="default" class="rdbtn" /> Default View</li>
+			<li><input type="radio" data-scenario="Scenario1" typeof="radioBox" id="scenario1" class="rdbtn" /> Scenario 1</li>
+			<li><input type="radio" data-scenario="Scenario2" id="scenario2" typeof="radioBox" class="rdbtn" /> Scenario 2</li>
+		</ul>
+	</div>
+	<div class="col-md-8">
+		<div id="msgContainer" class="" >
+			<p id="txtMsg" class="bg-success">
+				
+			</p>
+		</div>
+		<div class="row dynView" id="Default">
+			<div class="col-lg-12">
+				<div class="" >
+					<h2>Original Data view</h2>
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th>FirstName</th>
+								<th>LastName</th>
+								<th>Address</th>
+								<th>PhoneNumber</th>
+							</tr>
+						</thead>
+						<tbody id="tableBody"></tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="row dynView" id="Scenario1">
+			<div class="col-lg-12">
+				<div class="" >
+					<h2>Stree NameOrder</h2>
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th>Address</th>
+							</tr>
+						</thead>
+						<tbody id="tableBodyS1"></tbody>
+					</table>
+					<a class="btn btn-primary btnLi" data-sc="Scenario1">
+						write to file
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row dynView" id="Scenario2">
+			
+			<div class="col-lg-12">
+				<div class="">
+					<div class="row">
+						<div class="col-lg-6">
+							<h4>Name Frequency</h4>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>FirstName </th>
+										<th>Counter</th>
+									</tr>
+								</thead>
+								<tbody id="tableBodyS2a"></tbody>
+							</table>
+						</div>
+						<div class="col-lg-6">
+							<h4>Name with Lastname Frequency</h4>
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Counter</th>
+									</tr>
+								</thead>
+								<tbody id="tableBodyS2b"></tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12 text-center" >
+							<a class="btn btn-primary btnLi" href="javascript:void(0)" data-sc="Scenario2">
+								write to file
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-2">
+
+	</div>
+</div>
+<style>
+	.success_Panel{
+	    background-color: #dff0d8;
+    padding: 12px;
+	}
+	.error_Panel {
+    background-color: #eed3d7;
+    padding: 12px;
+}
+	.jumbotron {
+		padding-top: 0 !important;
+		padding-bottom: 0 !;
+	}
+	.dynView {
+	display:none;
+	}
+</style>

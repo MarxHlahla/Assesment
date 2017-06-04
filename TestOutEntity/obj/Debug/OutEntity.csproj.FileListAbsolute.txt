@@ -1,0 +1,7 @@
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\TestOutEntity\bin\Debug\TestOutEntity.dll
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\TestOutEntity\bin\Debug\TestOutEntity.pdb
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\TestOutEntity\bin\Debug\Objects.dll
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\TestOutEntity\bin\Debug\Objects.pdb
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\TestOutEntity\obj\Debug\OutEntity.csprojResolveAssemblyReference.cache
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\TestOutEntity\obj\Debug\TestOutEntity.dll
+c:\users\marks.warpdev\documents\visual studio 2015\Projects\TestOutEntity\TestOutEntity\obj\Debug\TestOutEntity.pdb
